@@ -3,7 +3,7 @@
 (UTP)."*
 
 ### 🌐 1. Importancia de la Marca Digital (Sobre mí) 
-¡Hola! 👋 Soy **[Mike Ruiz]**, estudiante de 1.er año de la Licenciatura en Ciberseguridad en la 
+¡Hola! 👋 Soy **Mike Ruiz**, estudiante de 1.er año de la Licenciatura en Ciberseguridad en la 
 **Universidad Tecnológica de Panamá (UTP)**. 
 
 Entiendo la marca personal no como un currículum estático, sino como la demostración activa de mi aprendizaje 
