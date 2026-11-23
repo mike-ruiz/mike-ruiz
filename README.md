@@ -23,27 +23,25 @@ reutilizables.
 Como estudiante en etapa inicial, este portafolio evolutivo documenta mis avances prácticos y laboratorios 
 desarrollados durante la carrera: 
 
-#### 🛠️ Tecnologías y Herramientas en Proceso de Aprendizaje: 
+#### 🛠️ Habilidades y Herramientas en Proceso de Aprendizaje: 
 - **Sistemas Operativos:** Linux (Ubuntu/Debian), Windows Server
-- **Redes & Seguridad:** Modelo OSI/TCP-IP, Cisco Packet Tracer
-- **Programación & Scripting:** lenguaje C y Java (Fundamentos)
+- **Redes & Seguridad:** Cisco Packet Tracer
+- **Programación:** lenguaje C y Java (Fundamentos)
 - **Herramientas Colaborativas:** Git, GitHub, VS Code
 
 #### 📁 Proyectos y Laboratorios Académicos (UTP): 
-- 🔹 **[Configuración de Perfil Profesional y Marca Digital]:** Proyecto parcial evaluado en la asignatura 
+- 🔹 **Perfil Profesional y Marca Digital:** Proyecto parcial evaluado en la asignatura 
 Sistemas Colaborativos (UTP, 2026).
-- 🔹 **[Scripts de Automatización para Tareas Administrativas]:** *(Próximamente)* Herramientas en 
-C y Java para verificación y creación de contraseñas seguras.
-- 🔹 **[Laboratorio de Simulación de Redes Seguras]:** *(En desarrollo)* Captura y análisis de paquetes en 
-redes locales.
+- 🔹 **Programación en C y Java:** *(En desarrollo)*Resolución de problemas algorítmicos, lógica estructurada y programación orientada a objetos (POO), incluyendo manejo de archivos y estructuras de datos a través de laboratorios prácticos.
+- 🔹 **[Redes de computadora]:** *(En desarrollo)* Diseño, simulación y configuración de topologías de red en Cisco Packet Tracer, implementando direccionamiento IP, subredes y protocolos de enrutamiento estático y dinámico.
 
  --- 
 
 ### 💼 3. CV en LinkedIn y Canales Digitales 
 
 Mantengo una identidad profesional coherente e interconectada en las plataformas digitales: 
-* 👔 **Perfil Profesional en LinkedIn:** [Enlace a Perfil de LinkedIn] 
-* 📄 **Curriculum Vitae Digital (PDF):** [Descargar CV Actualizado] 
+* 👔 **Perfil Profesional en LinkedIn:**  
+* 📄 **Curriculum Vitae Digital (PDF):** [Mike Ruiz CV.pdf](https://github.com/user-attachments/files/35285431/Mike.Ruiz.CV.pdf)
 * 📬 **Correo Institucional UTP:** mike.ruiz@utp.ac.pa --- 
 <p align="center"> 
 <i>"La seguridad en la red empieza con una identidad digital transparente, responsable y colaborativa."</i> 
