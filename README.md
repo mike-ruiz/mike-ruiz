@@ -40,7 +40,7 @@ Sistemas Colaborativos (UTP, 2026).
 ### 💼 3. CV en LinkedIn y Canales Digitales 
 
 Mantengo una identidad profesional coherente e interconectada en las plataformas digitales: 
-* 👔 **Perfil Profesional en LinkedIn:**  https://www.linkedin.com/in/mike-ruiz-587047436/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKRiHbd1FR1uvyA6m3wBcJQ%3D%3D
+* 👔 **Perfil Profesional en LinkedIn:**  www.linkedin.com/in/mike-ruiz17
 * 📄 **Curriculum Vitae Digital (PDF):** [Mike Ruiz CV.pdf](https://github.com/user-attachments/files/35285431/Mike.Ruiz.CV.pdf)
 * 📬 **Correo Institucional UTP:** mike.ruiz@utp.ac.pa --- 
 <p align="center"> 
