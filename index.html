@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Perfil profesional y marca digital de Mike Ruiz, estudiante de Ciberseguridad en la Universidad Tecnológica de Panamá (UTP).">
+<title>Mike Ruiz | Perfil Profesional – Ciberseguridad UTP</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+<style>
+:root{
+  --bg:#f5f7fb; --surface:#ffffff; --text:#14213d; --muted:#5b6b86;
+  --accent:#0a7cff; --accent-2:#00c2a8; --border:#e1e7f0;
+  --hero-1:#0b1b3a; --hero-2:#12356b; --tag-bg:#e8f1ff; --tag-text:#0a5bd0;
+  --shadow:0 6px 24px rgba(20,33,61,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b1220; --surface:#121b2e; --text:#e8eefc; --muted:#9db0d1;
+    --accent:#4da3ff; --accent-2:#2ee6c5; --border:#1f2c47;
+    --hero-1:#060d1c; --hero-2:#0e2550; --tag-bg:#16294a; --tag-text:#8fc2ff;
+    --shadow:0 6px 24px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b1220; --surface:#121b2e; --text:#e8eefc; --muted:#9db0d1;
+  --accent:#4da3ff; --accent-2:#2ee6c5; --border:#1f2c47;
+  --hero-1:#060d1c; --hero-2:#0e2550; --tag-bg:#16294a; --tag-text:#8fc2ff;
+  --shadow:0 6px 24px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1040px;margin:0 auto;padding:.8rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{font-weight:700;letter-spacing:.3px}
+.brand span{color:var(--accent)}
+.links{display:flex;gap:1.2rem;font-size:.92rem;flex-wrap:wrap}
+.links a{color:var(--muted);font-weight:500}
+.links a:hover{color:var(--accent);text-decoration:none}
+.theme-btn{background:none;border:1px solid var(--border);color:var(--text);border-radius:8px;padding:.3rem .6rem;cursor:pointer;font-size:1rem}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,var(--hero-1),var(--hero-2));color:#fff;text-align:center;padding:5rem 1.25rem 4.5rem;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,rgba(0,194,168,.22),transparent 45%),radial-gradient(circle at 15% 85%,rgba(10,124,255,.25),transparent 45%)}
+.hero>*{position:relative}
+.shield{font-size:3.4rem;margin-bottom:.5rem}
+.hero h1{font-size:clamp(1.9rem,5vw,3.1rem);line-height:1.15;margin-bottom:1rem}
+.hero p.quote{max-width:680px;margin:0 auto 2rem;font-size:1.1rem;opacity:.9;font-style:italic}
+.cta{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:.7rem 1.4rem;border-radius:10px;font-weight:600;font-size:.95rem;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);text-decoration:none}
+.btn-primary{background:var(--accent-2);color:#04201b}
+.btn-ghost{border:1px solid rgba(255,255,255,.5);color:#fff}
+
+/* LAYOUT */
+main{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+section{padding:3.5rem 0 .5rem}
+.section-head{display:flex;align-items:center;gap:.75rem;margin-bottom:1.6rem}
+.num{background:var(--accent);color:#fff;width:2.1rem;height:2.1rem;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:.95rem;flex:none}
+h2{font-size:1.6rem}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.6rem;box-shadow:var(--shadow)}
+.lead{color:var(--muted);margin-bottom:1.4rem}
+.lead strong{color:var(--text)}
+
+/* INFO GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem}
+.info{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.1rem 1.2rem;box-shadow:var(--shadow)}
+.info .ic{font-size:1.5rem}
+.info h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:.4rem 0 .25rem}
+.info p{font-weight:600}
+
+/* SKILLS */
+.skill-group{margin-bottom:1.3rem}
+.skill-group h3{font-size:1rem;margin-bottom:.6rem}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem}
+.tag{background:var(--tag-bg);color:var(--tag-text);padding:.35rem .85rem;border-radius:999px;font-size:.88rem;font-weight:600}
+
+/* PROJECTS */
+.projects{display:grid;gap:1rem}
+.project{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:14px;padding:1.3rem 1.4rem;box-shadow:var(--shadow)}
+.project h3{font-size:1.08rem;margin-bottom:.35rem}
+.project p{color:var(--muted);font-size:.96rem}
+.status{display:inline-block;font-size:.72rem;font-weight:700;padding:.2rem .6rem;border-radius:6px;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.05em}
+.done{background:#d9f7ec;color:#0a6b4a}
+.wip{background:#fff1d6;color:#8a5a00}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .done{background:#0f3a2d;color:#7be3bd}
+  :root:not([data-theme="light"]) .wip{background:#3d2d0a;color:#ffd27a}
+}
+:root[data-theme="dark"] .done{background:#0f3a2d;color:#7be3bd}
+:root[data-theme="dark"] .wip{background:#3d2d0a;color:#ffd27a}
+
+/* CONTACT */
+.contact-list{display:grid;gap:.9rem}
+.contact-item{display:flex;align-items:center;gap:1rem;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1rem 1.2rem;box-shadow:var(--shadow)}
+.contact-item .ic{font-size:1.6rem}
+.contact-item small{display:block;color:var(--muted);font-size:.8rem}
+.contact-item .val{font-weight:600;word-break:break-word}
+
+/* FOOTER */
+footer{margin-top:4rem;background:linear-gradient(135deg,var(--hero-1),var(--hero-2));color:#fff;text-align:center;padding:2.5rem 1.25rem}
+footer blockquote{max-width:640px;margin:0 auto 1rem;font-style:italic;font-size:1.05rem}
+footer small{opacity:.7}
+
+@media (max-width:640px){.links{display:none}.hero{padding:3.5rem 1.25rem 3rem}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="brand">Mike<span>Ruiz</span> · Ciberseguridad</div>
+    <div class="links">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#contacto">CV &amp; Contacto</a>
+    </div>
+    <button class="theme-btn" id="themeBtn" aria-label="Cambiar tema">🌓</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="shield">🛡️</div>
+  <h1>Tu Marca Digital en la Era Digital</h1>
+  <p class="quote">“Construyendo una huella digital segura, ética e impactante desde la Universidad Tecnológica de Panamá (UTP).”</p>
+  <div class="cta">
+    <a class="btn btn-primary" href="#portafolio">Ver portafolio</a>
+    <a class="btn btn-ghost" href="#contacto">Contacto</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1 -->
+  <section id="sobre-mi">
+    <div class="section-head"><div class="num">1</div><h2>Importancia de la Marca Digital · Sobre mí</h2></div>
+    <div class="card">
+      <p class="lead">¡Hola! 👋 Soy <strong>Mike Ruiz</strong>, estudiante de 1.er año de la Licenciatura en Ciberseguridad en la Universidad Tecnológica de Panamá (UTP). Entiendo la marca personal no como un currículum estático, sino como la demostración activa de mi aprendizaje continuo, la ética profesional en el manejo de la información y la colaboración en entornos digitales.</p>
+      <div class="grid">
+        <div class="info"><div class="ic">🎓</div><h3>Institución</h3><p>Universidad Tecnológica de Panamá (UTP) – FISC</p></div>
+        <div class="info"><div class="ic">📚</div><h3>Asignatura</h3><p>Sistemas Colaborativos</p></div>
+        <div class="info"><div class="ic">🎯</div><h3>Enfoque académico</h3><p>Fundamentos de Ciberseguridad, Redes de Datos, Administración de Linux y Control de Versiones</p></div>
+        <div class="info"><div class="ic">💡</div><h3>Propósito</h3><p>Documentar mi evolución técnica académica y construir repositorios colaborativos reutilizables</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section id="portafolio">
+    <div class="section-head"><div class="num">2</div><h2>Portafolio Profesional Digital</h2></div>
+    <p class="lead">Como estudiante en etapa inicial, este portafolio evolutivo documenta mis avances prácticos y laboratorios desarrollados durante la carrera.</p>
+
+    <div class="card" style="margin-bottom:1.6rem">
+      <h3 style="margin-bottom:1rem">🛠️ Habilidades y herramientas en proceso de aprendizaje</h3>
+      <div class="skill-group">
+        <h3>Sistemas Operativos</h3>
+        <div class="tags"><span class="tag">Linux (Ubuntu/Debian)</span><span class="tag">Windows Server</span></div>
+      </div>
+      <div class="skill-group">
+        <h3>Redes &amp; Seguridad</h3>
+        <div class="tags"><span class="tag">Cisco Packet Tracer</span></div>
+      </div>
+      <div class="skill-group">
+        <h3>Programación</h3>
+        <div class="tags"><span class="tag">Lenguaje C</span><span class="tag">Java (Fundamentos)</span></div>
+      </div>
+      <div class="skill-group" style="margin-bottom:0">
+        <h3>Herramientas colaborativas</h3>
+        <div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span></div>
+      </div>
+    </div>
+
+    <h3 style="margin-bottom:1rem">📁 Proyectos y laboratorios académicos (UTP)</h3>
+    <div class="projects">
+      <article class="project">
+        <span class="status done">Evaluado</span>
+        <h3>🔹 Perfil Profesional y Marca Digital</h3>
+        <p>Proyecto parcial evaluado en la asignatura Sistemas Colaborativos (UTP, 2026).</p>
+      </article>
+      <article class="project">
+        <span class="status wip">En desarrollo</span>
+        <h3>🔹 Programación en C y Java</h3>
+        <p>Resolución de problemas algorítmicos, lógica estructurada y programación orientada a objetos (POO), incluyendo manejo de archivos y estructuras de datos a través de laboratorios prácticos.</p>
+      </article>
+      <article class="project">
+        <span class="status wip">En desarrollo</span>
+        <h3>🔹 Redes de Computadoras</h3>
+        <p>Diseño, simulación y configuración de topologías de red en Cisco Packet Tracer, implementando direccionamiento IP, subredes y protocolos de enrutamiento estático y dinámico.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 3 -->
+  <section id="contacto">
+    <div class="section-head"><div class="num">3</div><h2>CV en LinkedIn y Canales Digitales</h2></div>
+    <p class="lead">Mantengo una identidad profesional coherente e interconectada en las plataformas digitales.</p>
+    <div class="contact-list">
+      <div class="contact-item">
+        <div class="ic">👔</div>
+        <div><small>Perfil profesional</small><span class="val">LinkedIn</span></div>
+      </div>
+      <a class="contact-item" href="https://github.com/user-attachments/files/35285431/Mike.Ruiz.CV.pdf" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+        <div class="ic">📄</div>
+        <div><small>Curriculum Vitae digital (PDF)</small><span class="val">Mike Ruiz CV.pdf</span></div>
+      </a>
+      <a class="contact-item" href="mailto:mike.ruiz@utp.ac.pa" style="color:inherit;text-decoration:none">
+        <div class="ic">📬</div>
+        <div><small>Correo institucional UTP</small><span class="val">mike.ruiz@utp.ac.pa</span></div>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <blockquote>“La seguridad en la red empieza con una identidad digital transparente, responsable y colaborativa.”</blockquote>
+  <small>© 2026 Mike Ruiz · Universidad Tecnológica de Panamá (UTP) – FISC</small>
+</footer>
+
+<script>
+(function(){
+  var btn=document.getElementById('themeBtn'),root=document.documentElement;
+  btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')==='dark' ||
+      (!root.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    root.setAttribute('data-theme',dark?'light':'dark');
+  });
+})();
+</script>
+</body>
+</html>
